@@ -1,4 +1,5 @@
 import './App.css'
+import Blog from './pages/Blog'
 import Explore from './pages/Explore'
 import Home from './pages/Home'
 
@@ -12,6 +13,7 @@ function App() {
       {/* Featured Explore */}
       <Explore />
       {/* Blogs */}
+      <Blog />
       {/* Places to visit */}
       {/* Footer */}
     </div>
