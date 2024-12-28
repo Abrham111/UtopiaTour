@@ -1,7 +1,9 @@
 import './App.css'
+import Footer from './components/Footer'
 import Blog from './pages/Blog'
 import Explore from './pages/Explore'
 import Home from './pages/Home'
+import PlacesToVisit from './pages/PlacesToVisit'
 
 function App() {
   
@@ -12,10 +14,12 @@ function App() {
       {/* Catagory */}
       {/* Featured Explore */}
       <Explore />
+      {/* Places to visit */}
+      <PlacesToVisit />
       {/* Blogs */}
       <Blog />
-      {/* Places to visit */}
       {/* Footer */}
+      <Footer />
     </div>
   )
 }
