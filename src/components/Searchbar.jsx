@@ -23,7 +23,7 @@ const Searchbar = () => {
       />
       </div>
 
-      <div className="flex flex-row justify-between items-center gap-3">
+      <div className="flex flex-row justify-between items-center gap-4">
         <button onClick={() => window.open('https://twitter.com')}>
         <FaXTwitter className="h-5 w-5 text-blue-500" />
         </button>
