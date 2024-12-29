@@ -1,6 +1,10 @@
 import Hero from "../components/Hero"
 import Navbar from "../components/Navbar"
 import Searchbar from "../components/Searchbar"
+import Explore from "../pages/Explore"
+import PlacesToVisit from "../pages/PlacesToVisit"
+import Blog from "../pages/Blog"
+import Footer from "../components/Footer"
 
 const Home = () => {
 
@@ -13,9 +17,16 @@ const Home = () => {
         <Navbar />
       </div>
       {/* Hero */}
-      <div>
         <Hero />
-      </div>
+      {/* Catagory */}
+      {/* Featured Explore */}
+      <Explore />
+      {/* Places to visit */}
+      <PlacesToVisit />
+      {/* Blogs */}
+      <Blog />
+      {/* Footer */}
+      <Footer />
     </div>
   )
 }

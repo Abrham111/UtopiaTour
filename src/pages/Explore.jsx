@@ -7,8 +7,8 @@ const Explore = () => {
     "../src/assets/gonder1.jpg",
     "../src/assets/gondor2.jpg",
     "../src/assets/gondor3.jpg",
-    "../src/assets/gondor4.jpg",
     "../src/assets/Gondar-Timket.jpg",
+    "../src/assets/gondor4.jpg",
   ];
 
   return (
@@ -42,17 +42,9 @@ const Explore = () => {
           <StackedImages images={imageUrls} />
           <img src="../src/assets/simien7.jpg" alt="Mountains" className="w-52 h-44 ml-4" />
           <div>
-            <h3 className="text-xl font-semibold">Explore beatiful places</h3>
+            <h3 className="text-xl font-semibold">Explore beautiful places</h3>
             <p className="text-rose-950">Discover the beauty of the mountains with our guided tours.</p>
           </div>
-
-          <a href="#" className="p-4 bg-white rounded-lg shadow-md flex items-center">
-            <img src="/path/to/city-icon.png" alt="City" className="w-12 h-12 mr-4" />
-            <div className='pt-16'>
-              <h3 className="text-xl font-semibold">City Tours</h3>
-              <p className="text-gray-700">Experience the vibrant life of the city with our exclusive city tours.</p>
-            </div>
-          </a>
         </div>
       </section>
 

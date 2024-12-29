@@ -1,26 +1,19 @@
 import './App.css'
-import Footer from './components/Footer'
-import Blog from './pages/Blog'
-import Explore from './pages/Explore'
 import Home from './pages/Home'
-import PlacesToVisit from './pages/PlacesToVisit'
+import Book from './pages/Book'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 function App() {
-  
+
   return (
-    <div>
-      {/* Home */}
-      <Home />
-      {/* Catagory */}
-      {/* Featured Explore */}
-      <Explore />
-      {/* Places to visit */}
-      <PlacesToVisit />
-      {/* Blogs */}
-      <Blog />
-      {/* Footer */}
-      <Footer />
-    </div>
+    <Router>
+      <div>
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/book" element={<Book />} />
+        </Routes>
+      </div>
+    </Router>
   )
 }
 
