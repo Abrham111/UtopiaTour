@@ -1,26 +1,6 @@
-import React from 'react';
+import { posts } from '../constants/index';
 
 const Blog = () => {
-  const posts = [
-    {
-      title: 'Top 5 places you should visit in Ethiopia',
-      description: 'Ethiopia is a land of breathtaking landscapes, rich history, and unique cultural heritage. From its historical treasures to its stunning national parks, Ethiopia offers a diverse array of attractions that captivate travelers from all over the world...',
-      image: 'https://via.placeholder.com/150',
-      link: '#'
-    },
-    {
-      title: 'Historical places in Ethiopia',
-      description: 'Ethiopia boasts an abundance of historical sites that span millennia.',
-      image: 'https://via.placeholder.com/150',
-      link: '#'
-    },
-    {
-      title: 'National Parks in Ethiopia',
-      description: 'For nature enthusiasts, Ethiopia offers a variety of national parks that showcase the country\'s biodiversity and stunning landscapes',
-      image: 'https://via.placeholder.com/150',
-      link: '#'
-    }
-  ];
 
   return (
     <div className="container mx-auto p-4">
