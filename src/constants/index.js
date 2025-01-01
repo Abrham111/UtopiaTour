@@ -36,25 +36,25 @@ export const adventures = [
     id: 1, 
     name: 'Simien Mountains Trek', 
     description: 'Explore the stunning Simien Mountains, a UNESCO World Heritage Site known for its dramatic landscapes, unique wildlife, and challenging trekking routes. Hike through rugged terrain, witness breathtaking views, and encounter endemic species like the Gelada baboon and Ethiopian wolf.', 
-    image: '../src/assets/simien7.jpg' 
+    image: '../src/assets/adventures/simien7.jpg' 
   },
   { 
     id: 2, 
     name: 'Lalibela Churches', 
     description: 'Visit the rock-hewn churches of Lalibela, a remarkable complex of 11 medieval monolithic churches carved out of solid rock. These architectural marvels, often referred to as the "Eighth Wonder of the World," are a testament to Ethiopia\'s rich religious heritage and are still active places of worship today.', 
-    image: 'lalibela.jpg' 
+    image: '../src/assets/adventures/lalibela.jpg' 
   },
   { 
     id: 3, 
     name: 'Omo Valley Tribes', 
     description: 'Experience the diverse cultures of the Omo Valley tribes, one of the most culturally rich regions in Ethiopia. Meet various indigenous tribes, each with their unique customs, traditions, and ways of life. This adventure offers a rare glimpse into the vibrant and ancient cultures that have thrived in the Omo Valley for centuries.', 
-    image: 'omo_valley.jpg' 
+    image: '../src/assets/adventures/omovally.jpg' 
   },
   { 
     id: 4, 
     name: 'Danakil Depression', 
     description: 'Discover the otherworldly landscapes of the Danakil Depression, one of the hottest and most inhospitable places on Earth. Marvel at the colorful sulfur springs, vast salt flats, and active volcanoes. This extreme environment is a geological wonder and offers an unforgettable adventure for those seeking to explore one of the planet\'s most unique regions.', 
-    image: 'danakil.jpg' 
+    image: '../src/assets/adventures/danakil.jpg' 
   },
 ];
 
@@ -63,19 +63,19 @@ export const ethiopianHolidays = [
     id: 1,
     name: "Enkutatash (Ethiopian New Year)",
     description: "Enkutatash, or Ethiopian New Year, is celebrated on Meskerem 1 (September 11 or 12 in the Gregorian calendar) and marks the start of the Ethiopian calendar year. It coincides with the end of the rainy season and the blooming of daisies, symbolizing renewal and hope. The holiday is observed with church services, traditional music, dancing, and feasts. Families gather to enjoy special meals, including injera and doro wat, while children sing songs and present bouquets of flowers to their elders.",
-    image: "https://example.com/enkutatash.jpg"
+    image: "..src/assets/holiday/enkutatash.jpg"
   },
   {
     id: 2,
     name: "Meskel",
     description: "Meskel is a major religious holiday in Ethiopia that celebrates the discovery of the True Cross by Saint Helena. Observed on Meskerem 17 (September 27 in the Gregorian calendar), it is marked by a large bonfire called the 'Demera,' symbolizing the cross. Celebrations include traditional dances, prayers, and communal feasts. The event is deeply spiritual and draws thousands of people to Meskel Square in Addis Ababa, where the grand bonfire is lit.",
-    image: "https://example.com/meskel.jpg"
+    image: "../src/assets/holiday/Meskel.jpg"
   },
   {
     id: 3,
     name: "Timket (Epiphany)",
     description: "Timket, or Ethiopian Epiphany, is one of the most colorful and vibrant religious festivals in Ethiopia. Celebrated on January 19 (or January 20 in a leap year), it commemorates the baptism of Jesus in the Jordan River. The holiday begins with a procession of the 'Tabot,' a replica of the Ark of the Covenant, carried by priests in elaborate robes. The faithful gather by rivers or water sources for blessings, followed by dancing, singing, and feasts.",
-    image: "https://example.com/timket.jpg"
+    image: "../src/assets/holiday/timket.jpg"
   },
   {
     id: 4,
