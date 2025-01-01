@@ -22,9 +22,9 @@ const Navbar = () => {
           <a className='flex flex-row font-semibold text-2xl' href="#blog">Blog{dropdown ? <RiArrowDropUpLine className='h-8 w-8' /> : <RiArrowDropDownLine className='h-8 w-8' />}</a>
           {dropdown === 'blog' && (
             <ul className="dropdown">
-              <li className="hover:underline"><a href="#blog-section1">Top 5 sites</a></li>
-              <li className="hover:underline"><a href="#blog-section2">Historic places</a></li>
-              <li className="hover:underline"><a href="#blog-section2">National Parks</a></li>
+              <li className="hover:underline"><a href="/blog">Top 5 sites</a></li>
+              <li className="hover:underline"><a href="/blog">Historic places</a></li>
+              <li className="hover:underline"><a href="/blog">National Parks</a></li>
             </ul>
           )}
         </li>
@@ -32,8 +32,8 @@ const Navbar = () => {
           <a className='flex flex-row font-semibold text-2xl' href="#sites">Sites{dropdown ? <RiArrowDropUpLine className='h-8 w-8' /> : <RiArrowDropDownLine className='h-8 w-8' />}</a>
           {dropdown === 'sites' && (
             <ul className="dropdown">
-              <li className="hover:underline"><a href="#sites-section1">Section 1</a></li>
-              <li className="hover:underline"><a href="#sites-section2">Section 2</a></li>
+              <li className="hover:underline"><a href="/placestovisit">Cities</a></li>
+              <li className="hover:underline"><a href="/placestovisit">Historical places</a></li>
             </ul>
           )}
         </li>
@@ -41,8 +41,8 @@ const Navbar = () => {
           <a className='flex flex-row font-semibold text-2xl' href="#about">About Us{dropdown ? <RiArrowDropUpLine className='h-8 w-8' /> : <RiArrowDropDownLine className='h-8 w-8' />}</a>
           {dropdown === 'about' && (
             <ul className="dropdown">
-              <li className="hover:underline"><a href="#about-section1">Section 1</a></li>
-              <li className="hover:underline"><a href="#about-section2">Section 2</a></li>
+              <li className="hover:underline"><a href="/about">Our services</a></li>
+              <li className="hover:underline"><a href="/about">Our History</a></li>
             </ul>
           )}
         </li>
