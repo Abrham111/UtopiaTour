@@ -8,12 +8,14 @@ import Holiday from './pages/infoPages/Holiday';
 import Nature from './pages/infoPages/Nature';
 import PlacesToVisit from './pages/PlacesToVisit';
 import Blog from './pages/Blog';
+import Contact from './pages/Contact';
+import About from './pages/About';
 
 function App() {
 
   return (
     <Router>
-      <div>
+      <div className='scroll-smooth'>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/book" element={<Book />} />
@@ -23,6 +25,8 @@ function App() {
           <Route path="/nature" element={<Nature />} />
           <Route path="/placestovisit" element={<PlacesToVisit />} />
           <Route path="/blog" element={<Blog />} />
+          <Route path="/contact-us" element={<Contact />} />
+          <Route path="/about" element={<About />} />
         </Routes>
       </div>
     </Router>
