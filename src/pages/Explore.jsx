@@ -1,29 +1,33 @@
-import img2 from '../assets/gondor1.jpg'
+import gondar from '../assets/gondor1.jpg'
 import StackedImages from '../components/StackedImages';
 import { imageUrls } from '../constants/images';
+import adventure from '../assets/ethiopia-travel.jpg';
+import holiday from '../assets/Meskel.jpg';
+import nature from '../assets/simien7.jpg';
+import food from '../assets/EtFood.jpg';
 
 const Explore = () => {
 
   return (
-    <div className="p-3 md:p-6 bg-blue-400 flex flex-col items-center" style={{ backgroundImage: `url(${img2})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
+    <div className="p-3 md:p-6 bg-blue-400 flex flex-col items-center" style={{ backgroundImage: `url(${gondar})`, backgroundRepeat: 'no-repeat', backgroundSize: 'cover' }}>
 
       <section className="mb-5 mt-5 md:mb-8 md:mt-8">
         <h2 className="text-sm md:text-2xl font-semibold md:mb-4 text-center text-blue-600">See Enjoy Experience</h2>
         <div className="flex flex-col md:flex-row justify-around items-center gap-2 md:gap-5">
           <a href="/adventure" className="flex flex-col items-center bg-blue-400 p-2 md:p-4 rounded-lg shadow-md">
-            <img src="../src/assets/ethiopia-travel.jpg" alt="Adventure" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
+            <img src={adventure} alt="Adventure" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
             <span className="text-lg font-semibold">Adventure</span>
           </a>
           <a href="/holiday" className="flex flex-col items-center bg-blue-400 p-4 rounded-lg shadow-md">
-            <img src="../src/assets/Meskel.jpg" alt="Holiday" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
+            <img src={holiday} alt="Holiday" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
             <span className="text-lg font-semibold">Holiday</span>
           </a>
           <a href="/nature" className="flex flex-col items-center bg-blue-400 p-4 rounded-lg shadow-md">
-            <img src="../src/assets/simien7.jpg" alt="Nature" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
+            <img src={nature} alt="Nature" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
             <span className="text-lg font-semibold">Nature</span>
           </a>
           <a href="/food" className="flex flex-col items-center bg-blue-400 p-4 rounded-lg shadow-md">
-            <img src="../src/assets/EtFood.jpg" alt="Food" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
+            <img src={food} alt="Food" className="w-full h-16 md:h-24 lg:h-32 object-cover rounded-md mb-2 transition-transform duration-300 hover:scale-105" />
             <span className="text-lg font-semibold">Food</span>
           </a>
         </div>
