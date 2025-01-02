@@ -1,4 +1,4 @@
-import img2 from '../assets/gonder1.jpg'
+import img2 from '../assets/gondor1.jpg'
 import StackedImages from '../components/StackedImages';
 import { imageUrls } from '../constants/images';
 
